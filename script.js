@@ -24,6 +24,7 @@ function alpha() {
     quotes.innerText = alphaMaleQuotes[currentIndex];
     quotes.style.backgroundColor='blue'
     button.style.backgroundColor='black'
+    button.style.color='white'
     button.innerText='click for next amazing Quote'
     currentIndex++;
   } else {
