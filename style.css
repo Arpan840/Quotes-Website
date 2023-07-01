@@ -5,8 +5,8 @@
 
 .box {
   margin: auto;
-  border: 2px solid;
-  width: 50vw;
+  border: 5px solid white;
+  width: 50rem;
   margin-top: 30vh;
   display: flex;
   align-items: center;
@@ -38,6 +38,7 @@
   text-transform: uppercase;
 
 }
+
 .qts{
   border:'2px solid white';
   background-color: blueviolet;
@@ -50,4 +51,26 @@
 .heading{
   color: white;
   font-size: 80px;
+}
+@media screen and (max-width: 767px) {
+  .box {
+    margin-top: 20vh;
+    width: 90%;
+    margin-bottom: 0;
+  }
+  
+  .btn {
+    font-size: 24px;
+    padding: 15px;
+  }
+  
+  .qts {
+    font-size: 32px;
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  .heading {
+    font-size: 48px;
+  }
 }
